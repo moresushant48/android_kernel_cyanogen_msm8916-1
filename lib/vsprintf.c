@@ -2151,7 +2151,7 @@ int vsscanf(const char *buf, const char *fmt, va_list args)
 			break;
 
 		base = 10;
-		is_sign = 0;
+		is_sign = false;
 
 		switch (*fmt++) {
 		case 'c':
@@ -2190,7 +2190,7 @@ int vsscanf(const char *buf, const char *fmt, va_list args)
 		case 'i':
 			base = 0;
 		case 'd':
-			is_sign = 1;
+			is_sign = true;
 		case 'u':
 			break;
 		case '%':

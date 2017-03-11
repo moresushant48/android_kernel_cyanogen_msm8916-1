@@ -744,11 +744,8 @@ static struct attribute *mdss_fb_attrs[] = {
 	&dev_attr_msm_fb_src_split_info.attr,
 	&dev_attr_msm_fb_thermal_level.attr,
 	&dev_attr_always_on.attr,
-<<<<<<< HEAD
 	&dev_attr_msm_fb_panel_status.attr,
-=======
 	&dev_attr_idle_pc.attr,
->>>>>>> 784bb4c... vortex: ILDE-Power collapse
 	NULL,
 };
 
